@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <div>home</div>
-      <Link to="/login">log in</Link>
+      <Link to="/OAuth/login">log in</Link>
     </>
   );
 }

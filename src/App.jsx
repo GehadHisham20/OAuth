@@ -7,17 +7,17 @@ import Home from './home';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/OAuth',
     element: <Home />,
     errorElement: <ErrorPage />,
   },
   {
-    path: '/login',
+    path: '/OAuth/login',
     element: <Login />,
     errorElement: <ErrorPage />,
   },
   {
-    path: 'profile',
+    path: '/OAuth/profile',
     element: <Profile />,
     errorElement: <ErrorPage />,
   },
