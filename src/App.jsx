@@ -1,8 +1,4 @@
-import {
-  RouterProvider,
-  createBrowserRouter,
-  createHashRouter,
-} from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import './App.css';
 import Login from './login';
 import ErrorPage from './Error';
@@ -11,17 +7,17 @@ import Home from './home';
 
 const router = createHashRouter([
   {
-    path: '/OAuth',
+    path: '/',
     element: <Home />,
     errorElement: <ErrorPage />,
   },
   {
-    path: '/OAuth/login',
+    path: '/login',
     element: <Login />,
     errorElement: <ErrorPage />,
   },
   {
-    path: '/OAuth/profile',
+    path: '/profile',
     element: <Profile />,
     errorElement: <ErrorPage />,
   },
