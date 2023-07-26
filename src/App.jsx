@@ -1,11 +1,15 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {
+  RouterProvider,
+  createBrowserRouter,
+  createHashRouter,
+} from 'react-router-dom';
 import './App.css';
 import Login from './login';
 import ErrorPage from './Error';
 import Profile from './profile';
 import Home from './home';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/OAuth',
     element: <Home />,
