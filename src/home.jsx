@@ -1,10 +1,5 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
 
 export default function Home() {
-  return (
-    <>
-      <div>home</div>
-      <Link to="/login">log in</Link>
-    </>
-  );
+  return <h1>home</h1>;
 }
